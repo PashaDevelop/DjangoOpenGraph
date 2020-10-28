@@ -35,5 +35,9 @@ def view(request):
     pass
 
 
+def view2(request):
+    pass
+
+
 def view3(request):
     pass
