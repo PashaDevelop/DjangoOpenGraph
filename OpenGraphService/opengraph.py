@@ -23,6 +23,7 @@ class OpenGraph(dict):
         self._new_param2 = kwargs.get('new_param2')
         self._new_param3 = kwargs.get('new_param3')
         self._new_param4 = kwargs.get('new_param4')
+        self._new_param5 = kwargs.get('new_param5')
 
         for k in kwargs:
             self[k] = kwargs[k]
