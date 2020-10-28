@@ -29,3 +29,7 @@ def parse_from_url(request: HttpRequest) -> Union[HttpResponse, HttpResponseBadR
     if not graph.is_valid():
         return HttpResponseBadRequest('Данная веб-страничка не отвечает требованиям OpenGraph')
     return HttpResponse(content=graph.to_json(), status=200, content_type='application/json')
+
+
+def view(request):
+    pass
