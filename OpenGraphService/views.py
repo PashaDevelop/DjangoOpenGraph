@@ -33,3 +33,7 @@ def parse_from_url(request: HttpRequest) -> Union[HttpResponse, HttpResponseBadR
 
 def view(request):
     pass
+
+
+def view2(request):
+    pass
