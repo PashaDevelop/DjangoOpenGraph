@@ -19,6 +19,7 @@ class OpenGraph(dict):
     def __init__(self, url=None, html=None, scrape=False, **kwargs):
         self.scrape = scrape
         self._url = url
+        self.new_param = kwargs.get('new_param')
 
         for k in kwargs:
             self[k] = kwargs[k]
